@@ -6,7 +6,7 @@
 
 Player* GetPlayerByIndex(unsigned int index)
 {
-	unsigned int anchor_1 = 0xA08F60;
+	unsigned int anchor_1 = 0xA08F06;
 
 	unsigned int object_1 = *(unsigned int *)anchor_1;
 	if (object_1 == NULL) return NULL;
